@@ -38,7 +38,7 @@
    * Navbar links active state on scroll
    */
   let navbarlinks = select('#navbar .scrollto', true)
-  var scrollMaxY = window.scrollMaxY || (document.documentElement.scrollHeight - document.documentElement.clientHeight)
+  var scrollMaxY = (document.documentElement.scrollHeight - document.documentElement.clientHeight)
 
   const navbarlinksActive = () => {
     let position = window.scrollY + 200
