@@ -752,7 +752,11 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .Linkedin:hover i,
+.contact .info .TryHackMe:hover i,
+.contact .info .HackTheBox:hover i,
+.contact .info .Github:hover i {
   background: #149ddd;
   color: #fff;
 }
