@@ -382,7 +382,12 @@ section {
 
 .certifications .progress .certification .val {
   float: right;
-  font-style: normal;
+  margin-right: 1%;
+  font-style:normal;
+  color: #18d26e;
+}
+.certifications .progress .certification .val.not-complete {
+  color:red;
 }
 
 .certifications .progress-bar-wrap {
